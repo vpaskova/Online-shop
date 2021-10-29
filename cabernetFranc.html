@@ -1,0 +1,174 @@
+<!DOCTORTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Gamza</title>
+    <link href="styles/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="scripts/script.js" defer></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="titlebox">
+        <div class="title">Винарска изба "Бонония"</div>
+        <div class="moto">Оригинални вина с традиционен български вкус</div>
+    </div>
+
+    <div class="topnav">
+	    <a href="aboutus.html">За нас</a>
+        <i>За контакти:</i>
+		<i class="fa fa-phone  ">+359 878 56 8043</i>
+        <i class="fa fa-envelope">e-mail: vinaria@abv.bg</i>
+    </div>
+	
+    <div class="itemtitle"><b>Gamza</b></div>
+	
+	<p id="winedescription">
+	Свежо, плодово, гъвкаво и балансирано вино носещо характерната специфика на сорта. 
+	Леко тяло с полирани ненатрапчиви феноли и аромат на горски бери плодове, съчетани с хербални нотки. 
+	Приятен мек завършек с едва доловима плодова сладост.
+	</p>
+	
+	<div class="winedetail">
+    <img class="product" src="images/cabernet.png">
+    <table>
+        <tr>
+            <td id="first">Сорт</td>
+            <td id="second"><b>ISTAR Cabernet Franc</b></td>
+        </tr>
+        <tr>
+            <td id="first">Реколта</td>
+            <td id="second">2018</td>
+        </tr>
+        <tr>
+            <td id="first">Качествена категория</td>
+            <td id="second">Защитено географско указание</td>
+        </tr>
+        <tr>
+            <td id="first">Регион</td>
+            <td id="second">Дунавска равнина</td>
+        </tr>
+        <tr>
+            <td id="first">Произход</td>
+            <td id="second">Грозде от селектирани собствени лозя</td>
+        </tr>
+        <tr>
+            <td id="first">Тип</td>
+            <td id="second">Червено сухо вино</td>
+        </tr>
+        <tr>
+            <td id="first">Температура на сервиране</td>
+            <td id="second">16-18˚C</td>
+        </tr>
+        <tr>
+            <td id="first">Алкохол</td>
+            <td id="second">14%</td>
+        </tr>
+        <tr>
+            <td id="first">Обем</td>
+            <td id="second">750ml</td>
+        </tr>
+		 <tr>
+            <td id="first">Цена</td>
+            <td id="second"><b>14,50лв</b></td>
+        </tr>
+    </table>
+	</div>
+    <div class="itemtitle"></div>
+    <div class="container" id="order">
+        <div class ="orderform">
+            <div class="formtitle">Направи своята поръчка сега</div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">Име</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fnameo" name="firstname" placeholder="Вашето име..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Фамилия</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lnameo" name="lastname" placeholder="Вашата фамилия..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="city">Град</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="city" name="city" placeholder="Населено място..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="address">Адрес</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="address" name="address" placeholder="ж.к., ул., №, бл., ет., ап..." style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="finish">
+                <button id="finish">Поръчай</button>
+            </div>
+			
+			<span id="successfulOrder"></span>
+            <span id="errorOrder"></span>
+        </form>
+    </div>
+
+	
+    <div class="itemtitle"></div>
+	
+    <div class="container" id="comments">
+        <div class="commentform">
+            <div class="formtitle">Отзиви</div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">Име</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fnamec" name="firstname" placeholder="Вашето име..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Фамилия</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lnamec" name="lastname" placeholder="Вашата фамилия..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="comment">Коментар</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="comment" name="comment" placeholder="" style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="finish">
+                <button id="commented">Публикувай</button>
+            </div>
+			<span id="errorComment"></span>
+        </div>
+		
+		<div class="dialogbox">
+            <div class="message">
+                <div id="new">
+
+                </div>
+            </div>
+        </div>
+		
+    </div>
+
+
+
+</body>
+
+</html>

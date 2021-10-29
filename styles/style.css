@@ -1,0 +1,271 @@
+.title {
+    font-size: 50px;
+    color: A6371F;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.moto {
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+}
+
+.titlebox {
+    background-color: F0EDD9;
+    text-align: center;
+    padding: 20px;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+	text-align: right;
+}
+
+.topnav a {
+	float: left;
+}
+.topnav a,
+.topnav i {
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.vertical-menu {
+    width: 300px;
+    margin-top: -372px;
+}
+
+.vertical-menu a {
+    background-color: F0EDD9;
+    color: black;
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+    text-decoration: underline;
+}
+
+.vertical-menu a.active {
+    background-color: A6371F;
+    color: white;
+}
+
+.cover {
+    margin-left: 300px;
+}
+
+.itemtitle {
+    background-color: F0EDD9;
+    padding: 16px;
+    text-align: center;
+    font-size: 25px;
+    color: A6371F;
+    margin-top: 12px;
+    border-bottom-style: double;
+    border-bottom-color: A6371F;
+}
+
+.description,
+#winedescription {
+    font-size: 17px;
+	text-align: center;
+	font-family: 'Brush Script MT', cursive;
+}
+
+.redwine,
+.whitewine,
+.rosewine,
+.fruitwine,
+.glasses,
+.corkscrew,
+.gifts {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    gap: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: center;
+    text-align: center;
+}
+
+.name {
+    color: A6371F;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item:hover {
+    border: outset;
+}
+
+button {
+    background-color: F0EDD9;
+    padding: 10px 60px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: A6371F;
+}
+
+.product{
+	margin-left: 100px;
+}
+
+table {
+    background-color: F0EDD9;
+    margin-left: 650px;
+	margin-top: -370px;
+    border-collapse: collapse;
+    width: 50%;
+    height: 50%;
+}
+
+#first {
+    color: A6371F;
+    font-weight: bold;
+}
+
+#first,
+#second {
+    font-size: 20px;
+}
+
+tr {
+    border-bottom: solid thin;
+}
+
+.container{
+    text-align: center;	
+}
+
+#order {
+	background-image: url('../images/descriptionBg.png');
+}
+
+#comments {
+	background-image: url('../images/bg2.jpg');
+}
+
+.winedetail {
+	background-image: url('../images/bg1.jpg');
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+#finish,
+#commented {
+    background-color: #333;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    float: right;
+    margin-top: 10px;
+}
+
+#finish:hover,
+#commented:hover {
+	background-color: A6371F;
+}
+
+.orderform,
+.commentform,
+.dialogbox {
+    border-radius: 5px;
+    background-color: F0EDD9;
+    border: solid thin;
+    width: 50%;
+    padding: 20px;
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+	margin-top: 20px;
+}
+
+.formtitle {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+	color: A6371F;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bg-image {
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bg-text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  padding: 8px;
+  text-align: center;
+}
+.message {
+    border-radius: 3px;
+    font-size: 14px;
+    color: black;
+}
+
+#errorOrder,
+#errorComment {
+    text-align: center;
+    border-bottom: 3px solid red;
+}
+
+#successfulOrder {
+    border-bottom: 3px solid green;
+}
